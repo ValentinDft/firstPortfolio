@@ -1,0 +1,86 @@
+html, body
+{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	width: 100%;
+	display: table;
+  background-color: white;
+}
+#heading
+{
+	text-align: center;
+	color: black;
+}
+
+.nav-link
+{
+	color: #d82c2e;
+	background-color: #333;
+}
+
+.nav-link:hover
+{
+	color: white;
+}
+
+#photo
+{
+	text-align: center;
+	text-decoration: underline;
+	color: red;
+}
+
+#education
+{
+	background:#333;
+	text-align: center;
+}
+
+#education h2
+{
+	color: #d82c2e;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#education h4
+{
+	color: white;
+}
+
+#education h5
+{
+	color: grey;
+}
+
+#education h6
+{
+	color: white;
+}
+
+.fa-university
+{
+	color: #d82c2e;
+	font-size: 30px;
+}
+
+/* FOOTER */
+footer
+{
+	background-color: #333;
+	color: white;
+	text-align: center;
+	height: 40px;
+	display: table-row;
+}
+
+.fa-chevron-up
+{
+	color: #d82c2e;
+	font-size : 20px;
+}
