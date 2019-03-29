@@ -63,7 +63,31 @@ body
 	color: white;
 }
 
+#competences
+{
+	text-align: center;
+}
+
+#competences h2
+{
+	color: #d82c2e;
+	text-align: center;
+	text-decoration: underline;
+}
+
 .fa-university
+{
+	color: #d82c2e;
+	font-size: 30px;
+}
+
+.fa-laptop-code
+{
+	color: #d82c2e;
+	font-size: 30px;
+}
+
+.fa-database
 {
 	color: #d82c2e;
 	font-size: 30px;
