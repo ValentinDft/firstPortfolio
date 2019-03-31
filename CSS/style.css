@@ -21,6 +21,7 @@ body
 {
 	color: #d82c2e;
 	background-color: #333;
+	font-weight: bold;
 }
 
 .nav-link:hover
@@ -73,6 +74,12 @@ body
 	color: #d82c2e;
 	text-align: center;
 	text-decoration: underline;
+}
+
+#listeCompetenceCode
+{
+	color: #333;
+	font-size: 30px;
 }
 
 .fa-university
