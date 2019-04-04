@@ -87,6 +87,20 @@ body
 	font-size: 30px;
 }
 
+#Experience
+{
+	background:#333;
+	text-align: center;
+}
+
+#Experience h2
+{
+	color: #d82c2e;
+	text-align: center;
+	text-decoration: underline;
+	letter-spacing: 6px;
+}
+
 .fa-university
 {
 	color: #d82c2e;
