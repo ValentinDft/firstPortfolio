@@ -11,26 +11,30 @@ body
 	display: table;
   background-color: white;
 }
-#heading
+
+/*-------------------------------MENU NAVIGATION------------------------------*/
+.nav-link
+{
+ color: #d82c2e;
+ background-color: #333;
+ font-weight: bold;
+ text-transform: uppercase;
+ font-size: 15px;
+ letter-spacing: 6px;
+}
+
+.nav-link:hover
+{
+ color: white;
+}
+
+/*-----------------------------------HEADER-----------------------------------*/
+#moi
 {
 	text-align: center;
 	color: black;
 }
 
-.nav-link
-{
-	color: #d82c2e;
-	background-color: #333;
-	font-weight: bold;
-	text-transform: uppercase;
-	font-size: 15px;
-	letter-spacing: 6px;
-}
-
-.nav-link:hover
-{
-	color: white;
-}
 
 #photo
 {
@@ -39,6 +43,7 @@ body
 	color: green;
 }
 
+/*-------------------------------SECTION EDUCATION----------------------------*/
 #education
 {
 	background:#333;
@@ -68,6 +73,13 @@ body
 	color: white;
 }
 
+.fa-university
+{
+	color: #d82c2e;
+	font-size: 30px;
+}
+
+/*-------------------------------SECTION COMPETENCE---------------------------*/
 #competences
 {
 	text-align: center;
@@ -81,29 +93,9 @@ body
 	letter-spacing: 6px;
 }
 
-#listeCompetenceCode
+#listeCompetenceInformatique
 {
 	color: #333;
-	font-size: 30px;
-}
-
-#Experience
-{
-	background:#333;
-	text-align: center;
-}
-
-#Experience h2
-{
-	color: #d82c2e;
-	text-align: center;
-	text-decoration: underline;
-	letter-spacing: 6px;
-}
-
-.fa-university
-{
-	color: #d82c2e;
 	font-size: 30px;
 }
 
@@ -119,6 +111,22 @@ body
 	font-size: 30px;
 }
 
+/*-------------------------------SECTION EXPERIENCE---------------------------*/
+#Experience
+{
+	background:#333;
+	text-align: center;
+	color: white;
+}
+
+#Experience h2
+{
+	color: #d82c2e;
+	text-align: center;
+	text-decoration: underline;
+	letter-spacing: 6px;
+}
+
 .fa-briefcase
 {
 	color: #d82c2e;
@@ -131,7 +139,7 @@ body
 	font-size: 30px;
 }
 
-/* FOOTER */
+/*------------------------------------FOOTER----------------------------------*/
 footer
 {
 	background-color: #333;
