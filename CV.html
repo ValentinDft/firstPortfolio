@@ -10,7 +10,7 @@
 
 <body>
 	<nav class="nav nav-tabs nav-fill" role="navigation">
-				<a class="nav-link active nav-item"href="#">Moi</a>
+				<a class="nav-link active nav-item"href="#moi">Moi</a>
 				<a class="nav-link nav-item" href="#education">Education</a>
 				<a class="nav-link nav-item" href="#competences">Compétences</a>
 				<a class="nav-link nav-item" href="#Experience">Expérience</a>
@@ -18,14 +18,21 @@
 	</nav>
 
 	<section class="container-fluid" id="moi">
-		<h1>Valentin Duffet</h1>
-		<h3>Bienvenue sur mon CV en ligne, réalisé par mes soins.</h3>
-		<p><br>Bonjour, je me présente je suis Valentin Duffet étudiant en informatique. Je réalise ce site internet pour m'entrainer et ainsi montrer mes conpétences en dévellopement de site web. Je suis actuellement en deuxieme année de BTS SNIR</p>
-		<p id="photo"><br>Ici il y aura une photo de moi</p>
+		<div class="heading">
+			<h1>Valentin Duffet</h1>
+			<h3>Bienvenue sur mon CV en ligne, réalisé par mes soins.</h3>
+			<p><br>Bonjour, je me présente je suis Valentin Duffet étudiant en informatique. Je réalise ce site internet pour m'entrainer et ainsi montrer mes conpétences en dévellopement de site web. Je suis actuellement en deuxieme année de BTS SNIR</p>
+			<div class="col-xs-8 col-md-4 center">
+				<img src="booba.jpg" alt="Valentin" id="img" 	class="img-bordure">
+			</div>
+		</div>
 	</section>
 
 	<section class="container" id="education">
-		<h2>EDUCATION</h2><br>
+		<div class="heading">
+			<h2>EDUCATION</h2><br>
+		</div>
+
 		<h5>2013 - 2016</h5>
 		<span class="fas fa-university"></span>
 		<h4>Lycée Polyvalent Astier - Aubenas 07200</h4>
@@ -44,7 +51,10 @@
 	</section>
 
 	<section class="container" id="competences">
-		<h2>COMPETENCES</h2><br>
+		<div class="heading">
+			<h2>COMPETENCES</h2><br>
+		</div>
+
 		<span class="fas fa-laptop-code"></span><br>
 		<ul id="listeCompetenceInformatique">
 			<span class="fab fa-html5"></span>Html
@@ -58,7 +68,10 @@
 	</section>
 
 	<section class="container" id="Experience">
-		<h2>Expérience</h2><br>
+		<div class="heading">
+			<h2>Expérience</h2><br>
+		</div>
+
 		<div class="row">
 			<div class="col-sm-6">
 				<span class="fas fa-briefcase"></span><br>
