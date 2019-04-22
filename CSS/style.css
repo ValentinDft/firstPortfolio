@@ -24,6 +24,8 @@ section .heading h2
 	text-align: center;
 	text-decoration: underline;
 	letter-spacing: 6px;
+	text-transform: uppercase;
+
 }
 
 /*-------------------------------MENU NAVIGATION------------------------------*/

@@ -30,7 +30,7 @@
 
 	<section class="container" id="education">
 		<div class="heading">
-			<h2>EDUCATION</h2><br>
+			<h2>Education</h2><br>
 		</div>
 
 		<h5>2013 - 2016</h5>
@@ -52,7 +52,7 @@
 
 	<section class="container" id="competences">
 		<div class="heading">
-			<h2>COMPETENCES</h2><br>
+			<h2>Compétences</h2><br>
 		</div>
 
 		<span class="fas fa-laptop-code"></span><br>
@@ -102,6 +102,31 @@
 		<div class="heading">
 			<h2>Contact</h2><br>
 		</div>
+		<form action="traitement.php" method="post">
+				<div class="form-group">
+					<div class="row">
+						<div class="col-sm-6">
+							<label for="prenom">Prénom* : </label>
+							<input type="text" name="prenom" class="form-control" placeholder="Saisir votre prénom" required><br>
+							<label for="nom">Nom* : </label>
+							<input type="text" name="nom" class="form-control" placeholder="Saisir votre nom" required><br>
+						</div>
+						<div class="col-sm-6">
+							<label for="email">Email* : </label>
+			 			 	<input type="email" name="email" class="form-control" placeholder="Saisir votre email" required><br>
+							<label for="tel">Téléphone : </label>
+							<input type="tel" name="tel" class="form-control" placeholder="Saisir votre numéro de téléphone">
+						</div>
+						<div class="col-sm-12">
+							<label for="message">Message* : </label>
+							<textarea name="message" rows="8" cols="80" class="form-control" placeholder="Saisir votre message" required></textarea><br>
+							<p>* Ces informations sont requises.</p>
+						</div>
+					</div>
+				</div>
+					<button type="submit" name="envoie" class="btn btn-danger">Envoyer</button>
+					<br>
+		</form>
 	</section>
 
 	<footer>
