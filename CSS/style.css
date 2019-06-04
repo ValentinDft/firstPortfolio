@@ -60,7 +60,7 @@ nav
 }
 
 
-#img
+/* #img
 {
 		max-width: 100%;
     height: auto;
@@ -70,12 +70,7 @@ nav
 .img-bordure
 {
 	border-radius: 50%
-}
-
-.center
-{
-	text-align: center;
-}
+} */
 
 /*-------------------------------SECTION EDUCATION----------------------------*/
 #education
