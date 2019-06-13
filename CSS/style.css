@@ -1,12 +1,6 @@
 html, body
 {
-	height: 100%;
-	margin: 0;
-	padding: 0;
-}
-
-body
-{
+	font-family: 'Roboto', sans-serif;
 	width: 100%;
 	display: table;
   background-color: white;
@@ -15,7 +9,9 @@ body
 section .heading
 {
 	text-align: center;
-	margin-top: 60px;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 section .heading h2
@@ -56,7 +52,7 @@ nav
 #moi
 {
 	color: black;
-	margin-top: 60px;
+	padding-top: 40px;
 }
 
 
