@@ -48,31 +48,21 @@ nav
  	padding: 15px 30px 20px 30px;
 }
 
-/*-----------------------------------HEADER-----------------------------------*/
+/*-----------------------------------MOI-----------------------------------*/
 #moi
 {
 	color: black;
-	padding-top: 40px;
+	padding-top: 80px;
+	text-align: center;
 }
-
-
-/* #img
-{
-		max-width: 100%;
-    height: auto;
-		text-align: center;
-}
-
-.img-bordure
-{
-	border-radius: 50%
-} */
 
 /*-------------------------------SECTION EDUCATION----------------------------*/
 #education
 {
 	background:#333;
 	text-align: center;
+	margin-top: 10px;
+	padding: 10px;
 }
 
 #education h6
@@ -124,6 +114,7 @@ nav
 #competences
 {
 	text-align: center;
+	padding: 10px;
 }
 
 #listeCompetenceInformatique
@@ -150,6 +141,7 @@ nav
 	background:#333;
 	text-align: center;
 	color: white;
+	padding: 10px;
 }
 
 #experience h5
@@ -168,6 +160,12 @@ nav
 	color: #d82c2e;
 	font-size: 30px;
 }
+/*------------------------------------CONTACT---------------------------------*/
+
+#contact
+{
+	padding: 10px;
+}
 
 /*------------------------------------FOOTER----------------------------------*/
 footer
@@ -175,7 +173,7 @@ footer
 	background-color: #333;
 	color: white;
 	text-align: center;
-	height: 40px;
+	height: 50px;
 	display: table-row;
 }
 
