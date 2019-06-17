@@ -25,27 +25,35 @@ section .heading h2
 }
 
 /*-------------------------------MENU NAVIGATION------------------------------*/
-nav
+
+.navbar
 {
-		position: fixed;
-		width: 100%;
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
-.nav-link
+.navbar .navbar-link
 {
-	 color: #d82c2e;
-	 background-color: #333;
-	 font-weight: bold;
-	 text-transform: uppercase;
-	 font-size: 15px;
-	 letter-spacing: 6px;
+  text-align: center;
 }
 
-.nav-link:hover
+.navbar li a
 {
-	border-top: 5px solid;
-	color: white;
- 	padding: 15px 30px 20px 30px;
+  color: white !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a
+{
+  font-size: 14px;
+  color: #d82c2e !important;
+}
+
+.fa-bars
+{
+  color: white;
+  font-size: 24px;
 }
 
 /*-----------------------------------MOI-----------------------------------*/
@@ -136,7 +144,7 @@ nav
 }
 
 /*-------------------------------SECTION EXPERIENCE---------------------------*/
-#experience
+#experiences
 {
 	background:#333;
 	text-align: center;
@@ -144,7 +152,7 @@ nav
 	padding: 10px;
 }
 
-#experience h5
+#experiences h5
 {
 	color: grey
 }
