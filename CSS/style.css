@@ -127,23 +127,25 @@ section .heading h2
 	padding: 20px;
 }
 
+#competences .fas
+{
+	color: #d82c2e;
+	font-size: 30px;
+}
+
+#competences .fab
+{
+	color: #333;
+	font-size: 40px;
+}
+
 #listeCompetenceInformatique
 {
 	color: #333;
 	font-size: 30px;
 }
 
-.fa-laptop-code
-{
-	color: #d82c2e;
-	font-size: 30px;
-}
 
-.fa-database
-{
-	color: #d82c2e;
-	font-size: 30px;
-}
 
 /*-------------------------------SECTION EXPERIENCE---------------------------*/
 #experiences
