@@ -11,8 +11,8 @@ section .heading
 {
 	text-align: center;
 	margin-top: 20px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 35px;
+	padding-bottom: 35px;
 }
 
 section .heading h2
@@ -71,8 +71,8 @@ section .heading h2
 {
 	background:#333;
 	text-align: center;
-	margin-top: 10px;
-	padding: 10px;
+	margin-top: 20px;
+	padding: 20px;
 }
 
 #education h6
@@ -124,7 +124,7 @@ section .heading h2
 #competences
 {
 	text-align: center;
-	padding: 10px;
+	padding: 20px;
 }
 
 #listeCompetenceInformatique
@@ -151,7 +151,7 @@ section .heading h2
 	background:#333;
 	text-align: center;
 	color: white;
-	padding: 10px;
+	padding: 20px;
 }
 
 #experiences h5
@@ -174,7 +174,7 @@ section .heading h2
 
 #contact
 {
-	padding: 10px;
+	padding: 20px;
 }
 
 /*------------------------------------FOOTER----------------------------------*/
