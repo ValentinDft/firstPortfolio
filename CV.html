@@ -39,11 +39,13 @@
 	<section id="moi">
 		<div class="container">
 				<div class="col-md-12">
-					<img src="img/IMG_5395.jpg" alt="Valentin" id="img" 	class="img-thumbnail img-fluid">
+					<img src="img/IMG_5395.jpg" alt="Valentin" id="img" class="img-thumbnail img-fluid">
 				</div>
 				<div class="heading">
 				<h1>Valentin Duffet</h1>
-				<h3>Bienvenue sur mon CV en ligne, réalisé par mes soins.</h3>
+				<h3>Bienvenue sur mon CV en ligne, réalisé par mes soins.</h3><br>
+				<a href="https://www.linkedin.com/in/valentin-duffet/" target="_blank"><span class="fab fa-linkedin"></span></a>
+				<a href="https://github.com/ValentinDft" target="_blank"><span class="fab fa-github"></span> </a>
 			</div>
 		</div>
 	</section>
@@ -149,13 +151,13 @@
 			<form action="traitement.php" method="POST">
 					<div class="form-group">
 						<div class="row">
-							<div class="col-sm-6">
+							<div class="col-md-6">
 								<label for="prenom">Prénom* : </label>
 								<input type="text" name="prenom" class="form-control" placeholder="Saisir votre prénom"><br>
 								<label for="nom">Nom* : </label>
 								<input type="text" name="nom" class="form-control" placeholder="Saisir votre nom"><br>
 							</div>
-							<div class="col-sm-6">
+							<div class="col-md-6">
 								<label for="email">Email* : </label>
 				 			 	<input type="email" name="email" class="form-control" placeholder="Saisir votre email"><br>
 								<label for="tel">Téléphone : </label>
@@ -169,6 +171,7 @@
 							<div class="col-sm-12">
 								<button type="submit" name="envoie" class="btn btn-danger" id="boutonEnvoie">Envoyer</button>
 							</div>
+
 						</div>
 					</div>
 			</form>
@@ -176,10 +179,12 @@
 	</section>
 
 	<footer>
-			<a href="#moi">
-				<span class="fas fa-chevron-up"></span>
-			</a>
-		<h6>© 2019 Valentin Duffet</h6>
+		<div class="container">
+					<a href="#moi">
+						<span class="fas fa-chevron-up"></span>
+					</a>
+					<h6><br>© 2019 Valentin Duffet</h6>
+		</div>
 	</footer>
 </body>
 </html>

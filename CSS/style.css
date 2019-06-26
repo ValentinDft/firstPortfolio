@@ -66,6 +66,11 @@ section .heading h2
 	text-align: center;
 }
 
+.fab
+{
+	font-size: 30px;
+}
+
 /*-------------------------------SECTION EDUCATION----------------------------*/
 #education
 {
@@ -185,12 +190,12 @@ footer
 	background-color: #333;
 	color: white;
 	text-align: center;
-	height: 50px;
+	height: 60px;
 	display: table-row;
 }
 
 .fa-chevron-up
 {
 	color: #d82c2e;
-	font-size : 20px;
+	font-size : 30px;
 }
