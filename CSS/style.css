@@ -103,18 +103,6 @@ section .heading h2
   margin-bottom: 30px;
 }
 
-.block-bts
-{
-	width: 60%;
-  margin: 0 auto;
-  text-align: center;
-  padding: 40px;
-  background-color: #ddd;
-  border-radius: 30px;
-  border: 2px solid #ccc;
-  margin-bottom: 30px;
-}
-
 .block h5
 {
 	color: #d82c2e;
