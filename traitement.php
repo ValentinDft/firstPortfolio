@@ -8,17 +8,19 @@
       //$header.='Content-Transfer-Encoding: 8bit';
       $nom = $_POST['nom'];
       $prenom = $_POST['prenom'];
+      $tel = $_POST['tel'];
       $email = $_POST['email'];
-      $message = $_POST['nom'];
+      $message = $_POST['message'];
 
       $destinataire = "vavadu07@gmail.com";
-      $sujet = "Formualaire de contact CV";
-      $message = "Nom : $nom \n
+      $sujet = "Formulaire de contact CV";
+      $contenu = "Nom : $nom \n
         Prenom : $prenom \n
+        Tel : $tel \n
         Email : $email \n
         Message : $message";
       $header = "From : $nom \n Reply-To: $email";
-      mail($destinataire, $sujet, $message, $header);
+      mail($destinataire, $sujet, $contenu, $header);
       echo "Merci votre message est envoyé";
 
     } else {
