@@ -12,7 +12,7 @@
       $email = $_POST['email'];
       $message = $_POST['message'];
 
-      $destinataire = "vavadu07@gmail.com";
+      $destinataire = "valentinduffet@orange.fr";
       $sujet = "Formulaire de contact CV";
       $contenu = "Nom : $nom \n
         Prenom : $prenom \n
