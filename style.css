@@ -1,0 +1,189 @@
+html, body
+{
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+	display: table;
+  background-color: white;
+	position: relative;
+}
+
+section .heading
+{
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+section .heading h2
+{
+	color: #d82c2e;
+	text-align: center;
+	text-decoration: underline;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+
+}
+
+/*-------------------------------MENU NAVIGATION------------------------------*/
+
+.navbar
+{
+  font-size: 12px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+	padding-right: 60px;
+}
+
+.navbar .navbar-link
+{
+  text-align: center;
+}
+
+.navbar li a
+{
+  color: white !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a
+{
+  font-size: 14px;
+  color: #d82c2e !important;
+}
+
+.fa-bars
+{
+  color: white;
+  font-size: 24px;
+}
+
+/*-----------------------------------MOI-----------------------------------*/
+#moi
+{
+	color: black;
+	padding-top: 60px;
+	text-align: center;
+}
+
+.fab
+{
+	font-size: 30px;
+}
+
+/*-------------------------------SECTION EDUCATION----------------------------*/
+#education
+{
+	background:#333;
+	text-align: center;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+#education h6
+{
+	color: grey;
+}
+
+.fa-university
+{
+	color: #d82c2e;
+	font-size: 30px;
+}
+
+.block
+{
+	width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  background-color: #ddd;
+  border-radius: 30px;
+  border: 2px solid #ccc;
+  margin-bottom: 30px;
+}
+
+.block h5
+{
+	color: #d82c2e;
+}
+
+.block-bts h5
+{
+	color: #d82c2e;
+}
+
+/*-------------------------------SECTION COMPETENCE---------------------------*/
+#competences
+{
+	text-align: center;
+	padding: 20px;
+}
+
+#competences .fas
+{
+	color: #d82c2e;
+	font-size: 30px;
+}
+
+#competences .fab
+{
+	color: #333;
+	font-size: 40px;
+}
+
+#listeCompetenceInformatique
+{
+	color: #333;
+	font-size: 30px;
+}
+
+
+
+/*-------------------------------SECTION EXPERIENCE---------------------------*/
+#experiences
+{
+	background:#333;
+	text-align: center;
+	color: white;
+	padding: 20px;
+}
+
+#experiences h5
+{
+	color: grey
+}
+
+.fa-briefcase
+{
+	color: #d82c2e;
+	font-size: 30px;
+}
+
+.fa-school
+{
+	color: #d82c2e;
+	font-size: 30px;
+}
+/*------------------------------------CONTACT---------------------------------*/
+
+#contact
+{
+	padding: 20px;
+}
+
+/*------------------------------------FOOTER----------------------------------*/
+footer
+{
+	background-color: #333;
+	color: white;
+	text-align: center;
+	height: 60px;
+	display: table-row;
+}
+
+.fa-chevron-up
+{
+	color: #d82c2e;
+	font-size : 30px;
+}
