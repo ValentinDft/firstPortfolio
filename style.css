@@ -165,10 +165,32 @@ section .heading h2
 	color: #d82c2e;
 	font-size: 30px;
 }
+
+/*----------------------------------REALISATION-----------------------------*/
+
+#realisation
+{
+	text-align: center;
+	padding: 20px;
+}
+
+#realisation .img-cover
+{
+	filter: grayscale(80%);
+	border-radius: 10px;
+}
+
+#realisation .img-cover:hover
+{
+	filter: none;
+}
+
 /*------------------------------------CONTACT---------------------------------*/
 
 #contact
 {
+	background: #333;
+	color: white;
 	padding: 20px;
 }
 
