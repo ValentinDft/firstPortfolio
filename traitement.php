@@ -3,9 +3,7 @@
 
     if (!empty($_POST['prenom']) AND !empty($_POST['nom']) AND !empty($_POST['email']) AND !empty($_POST['message']))
     {
-      //$header = "MIME-Version: 1.0\r\n";
-      //$header.='Content-Type:text/html; charset="uft-8"'."\n";
-      //$header.='Content-Transfer-Encoding: 8bit';
+
       $nom = $_POST['nom'];
       $prenom = $_POST['prenom'];
       $tel = $_POST['tel'];
@@ -19,6 +17,10 @@
         Tel : $tel \n
         Email : $email \n
         Message : $message";
+      $headers .= "MIME-Version: 1.0\r\n";
+      $headers .= "Content-Type: text/html; charset=utf-8\r\n";
+      $headers .= "X-Priority: 3\r\n";
+      $headers .= "X-Mailer: PHP". phpversion() ."\r\n" ;
       $header = "From : $nom \n Reply-To: $email";
       mail($destinataire, $sujet, $contenu, $header);
       echo "Merci votre message est envoyé";

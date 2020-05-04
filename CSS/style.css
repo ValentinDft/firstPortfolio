@@ -29,21 +29,16 @@ section .heading h2
 
 .navbar
 {
-  font-size: 12px;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  font-weight: bold;
+	font-size: 12px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	font-weight: bold;
 	padding-right: 60px;
-}
-
-.navbar .navbar-link
-{
-  text-align: center;
 }
 
 .navbar li a
 {
-  color: white !important;
+  	color: white !important;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a
