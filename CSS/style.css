@@ -3,7 +3,7 @@ html, body
 	font-family: 'Roboto', sans-serif;
 	width: 100%;
 	display: table;
-  background-color: white;
+  	background-color: white;
 	position: relative;
 }
 
@@ -196,7 +196,7 @@ footer
 	color: white;
 	text-align: center;
 	height: 60px;
-	display: table-row;
+	display: table-footer-group;
 }
 
 .fa-chevron-up
